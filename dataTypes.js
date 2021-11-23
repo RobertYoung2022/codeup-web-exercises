@@ -114,6 +114,7 @@ console.log(!!1)
 
 
 //Exercise 2
+
 //Checking length of Hello Codeup
 var sample = "Hello Codeup";
 console.log(sample.length);
@@ -124,7 +125,7 @@ sample += " Students";
 console.log(sample);
 //Replacing student with class
 let r = sample;
-console.log(r.replace('Students' , 'Class'));
+console.log(r.replace('Students', 'Class'));
 //Index of c
 console.log(sample.indexOf("c"));
 
@@ -132,7 +133,7 @@ console.log(sample.indexOf("c"));
 console.log(sample.indexOf("C"));
 
 //Substring of Codeup
-console.log(sample.substring(6 , 12));
+console.log(sample.substring(6, 12));
 
 //Exercise 3.1
 const kidsMovies = 3;
@@ -140,11 +141,30 @@ let littleMermaid = 3;
 let brotherBear = 5;
 let hercules = 1;
 
-console.log( 'Little Mermaid cost $' + kidsMovies * littleMermaid + ' to rent for ' + littleMermaid.value + ' days.');
-console.log( 'Brother Bear cost $' + kidsMovies * brotherBear + ' to rent for ' + brotherBear.value + ' days.');
-console.log( 'Hercules cost $' + kidsMovies * hercules + ' to rent for ' + hercules.value + ' days.');
+console.log('Little Mermaid cost $' + kidsMovies * littleMermaid + ' to rent for ' + littleMermaid + ' days.');
+console.log('Brother Bear cost $' + kidsMovies * brotherBear + ' to rent for ' + brotherBear + ' days.');
+console.log('Hercules cost $' + kidsMovies * hercules + ' to rent for ' + hercules + ' days.');
+// console.log('$' + ())
 
 //Exercise 3.2
+let googlePay = 400;
+let facebookPay = 350;
+let amazonPay = 380;
+
+console.log((googlePay * 6) + (facebookPay * 10) + (amazonPay * 4));
+
+//Exercise 3.3
+
+var isNotFull = true;
+var doesNotConflict = true;
+
+if (isNotFull && doesNotConflict) {
+    console.log("Welcome to Class!")
+} else {
+    console.log("You are not welcome")
+}
+
+//Exercise 3.4
 
 
 //Exercise 4
@@ -154,11 +174,15 @@ var password = 'notastrongpassword';
 //Create a variable that holds a boolean value for each of the following conditions:
 
 // the password must be at least 5 characters
+console.log(password.length >= 5);
 // the password must not include the username
+// console.log(password )
 // the username must be no more than 20 characters
+console.log(username.length >= 20);
 // neither the username or password can start or end with whitespace
 
-// let cIndex = sample.indexOf("C");
-// console.log(sample.substring (cIndex, (sample.indexOf("C")+ -1 ) - cIndex));
 
-// console.log(!NaN);
+
+
+console.log(password.includes(password))
+console.log(username.includes(username))
