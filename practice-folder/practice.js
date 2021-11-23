@@ -80,12 +80,14 @@ function sub(sum1, sum2) {
 
     return sum1 - sum2;
 }
+
 console.log(sub(12, 3));
 
 function multiple(sum1, sum2) {
 
     return sum1 * sum2;
 }
+
 console.log(multiple(2, 3));
 
 function divide(sum1, sum2) {
