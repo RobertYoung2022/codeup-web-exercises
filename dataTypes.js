@@ -165,7 +165,22 @@ if (isNotFull && doesNotConflict) {
 }
 
 //Exercise 3.4
+//A product offer can be applied only if a person buys more than 2 items, and the offer has not expired.
+// Premium members do not need to buy a specific amount of products.
 
+// have more than 2 items and is the offer expired
+
+let itemAmount = 1;
+let isExpired = false;
+let isPremium = false;
+
+if (!isPremium && itemAmount > 2 && !isExpired) {
+        console.log("You win a brand new car!");
+}else if (!isExpired && isPremium) {
+    console.log("You win a brand new new car!");
+} else {
+    console.log("You have no offer");
+}
 
 //Exercise 4
 var username = 'codeup';
@@ -180,9 +195,6 @@ console.log(password.length >= 5);
 // the username must be no more than 20 characters
 console.log(username.length >= 20);
 // neither the username or password can start or end with whitespace
-
-
-
 
 console.log(password.includes(password))
 console.log(username.includes(username))

@@ -10,7 +10,7 @@
  */
 
 function sayHello(name) {
-    console.log("Hello, " + name)
+    return "Hello, " + name;
 }
 
 sayHello("Robert Young");
@@ -24,12 +24,8 @@ sayHello("Robert Young");
  * console.log 'helloMessage' to check your work
  */
 
-
-function helloMessage(){
-    console.log("Robert Young")
-}
-helloMessage();
-
+let helloMessage = sayHello("Robert Young");
+console.log(helloMessage);
 
 
 /**
@@ -40,7 +36,7 @@ helloMessage();
  */
 
 let myName = "Robert Young";
-sayHello(myName);
+console.log(sayHello(myName));
 
 // Don't modify the following line, it generates a random number between 1 and 3
 // and stores it in a variable named random
@@ -63,13 +59,14 @@ var random = Math.floor((Math.random() * 3) + 1);
  * different result everytime you refresh the page if you are using the random
  * number)
  */
-function isTwo(num1){
-    if (num1 == 2) {
+function isTwo(num1) {
+    if (num1 === 2) {
         console.log("The number is 2")
     } else {
         console.log("Not two buddy")
     }
 }
+
 isTwo(random);
 
 /**
@@ -84,8 +81,7 @@ isTwo(random);
  * > calculateTip(0.15, 33.42) // returns 5.013
  */
 function calculateTip(total, tip) {
-    let tipAmount = (total * tip);
-    return tipAmount;
+    return (total * tip);
 }
 console.log(calculateTip(20, .20));
 
@@ -95,6 +91,13 @@ console.log(calculateTip(20, .20));
  * prompt the user for the bill total and a percentage they would like to tip,
  * then display the dollar amount they should tip
  */
+// prompt for bill and percentage
+    /*let billTotal = prompt("How much was your bill?")
+    let tipCalc = prompt("How much would you like to tip?");
+
+//combine and set alert
+alert(calculateTip(billTotal, tipCalc).toFixed(2));*/
+
 
 /**
  * TODO:
@@ -110,3 +113,11 @@ console.log(calculateTip(20, .20));
  *
  * > applyDiscount(45.99, 0.12) // 40.4712
  */
+
+let originalPrice = 100;
+let discountPercent = .2;
+
+function applyDiscount(price, percentage) {
+    return price - percentage * price;
+}
+console.log(applyDiscount(originalPrice, discountPercent));
