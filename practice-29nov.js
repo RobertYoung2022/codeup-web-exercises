@@ -1,28 +1,28 @@
 "use strict";
 
-function reverseString(str) {
+/*function reverseString(str) {
    let sis = "";
    for (let i = str.length - 1; i >= 0; i--) {
    sis += str[i];
    }
    return sis;
 }
-console.log(reverseString("Tanauchea"))
+console.log(reverseString("Tanauchea"))*/
 
 
-/*function reverseString2(str) {
- let sisNameToReverse = "";
- let reverseSisName = sisNameToReverse.split("").reverse().join("");
+function reverseString2(str) {
+ let reverseSisName = reverseString2().split("").reverse().join("");
+ return reverseString2();
 }
 
-console.log(reverseSisName("Tanauchea"));*/
+console.log(reverseString2("Tanauchea"));
 
 
 //Rainy I would wear a rain coat with a hood
 //Sunny I would wear shorts, t-shirt and sunglasses
 //Snowy I would wear hat, snow coat, and boots
 
- let weather = "snowy";
+ let weather = "rainy";
 
 // if weather is sunny, wear shorts
  if (weather === "sunny") {
@@ -64,6 +64,49 @@ function topStudent (stuGrades) {
  } else {
   console.log("Let's us start over from the top");
  }
+
+ //Ternary Statement
+ /*stuGrades <= 99 && stuGrades >= 90 ? console.log("A Grade")
+                                    : console.log("B Grade")*/
+}
+topStudent(68);
+
+//switch example
+switch (weather){
+ case "sunny":
+  console.log("sunglasses");
+        break;
+
+ case "rainy":
+  console.log("umbrella");
+        break;
+
+ case "snowy":
+  console.log("boots")
+        break;
 }
 
-topStudent(0);
+/*
+allStuGrades = topStudent;
+
+//switch #2 example
+switch (allStuGrades){
+ case  90:
+  console.log("A student");
+  break;
+ case  80:
+  console.log("B student");
+  break;
+ case  70:
+  console.log("C student");
+  break;
+ case  60:
+  console.log("D student");
+  break;
+}
+*/
+
+
+
+
+
