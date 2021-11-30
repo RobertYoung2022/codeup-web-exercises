@@ -64,7 +64,7 @@ for (var i = 0; i < arr.length; i++) {
 
 }*/
 
-function whatIsYourName(string) {
+/*function whatIsYourName(string) {
     const str = "ThEbEsTbOwLiNgPlAcEever";
     const arr = str.split(" ");
     for (let i = 0; i < arr.length; i++) {
@@ -72,7 +72,7 @@ function whatIsYourName(string) {
     }
     return str;
 }
-console.log(whatIsYourName("ThEbEsTbOwLiNgPlAcEever"));
+console.log(whatIsYourName("ThEbEsTbOwLiNgPlAcEever"));*/
 
 /*
 const str = 'i have learned something new today';
@@ -85,6 +85,12 @@ const str2 = arr.join(" ");
 console.log(str2);
 */
 
+function bowlName(name, splitter) {
 
+    const splits = name;
+    return splits.split(" ");
+}
+
+console.log(bowlName("ThEbEsTbOwLiNgPlAcEever");
 
 
