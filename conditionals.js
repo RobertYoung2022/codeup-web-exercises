@@ -223,7 +223,7 @@ alert("Total discount is $" + discount + " and your total = $" + (totalBill - di
         alert("Negative Number");
     }*/
 }
-
+    if()
 
 /*function exerciseLast() {
     let pickNum = prompt("Pick a number 1 - 10");
