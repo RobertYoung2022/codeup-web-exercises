@@ -8,7 +8,7 @@
 // Copy and execute the following functions, and find the Error: (Hint: try console logging the result)
 
 /*function topThree(score) {
-    if (score > 300) {
+    if (score >= 300 ) {
         console.log("You are the top bowler");
     } else if (score > 250 ) {
         console.log("You are the 2nd top bowler");
