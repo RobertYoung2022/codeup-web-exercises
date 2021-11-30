@@ -194,17 +194,48 @@ alert("Total discount is $" + discount + " and your total = $" + (totalBill - di
  * HINT: The way we prompt for a value could be improved
  */
 
-function exerciseLast() {
-
     let cFirm = confirm("Are you sure?");
+
+    //Is the picked number even or odd
+    if(cFirm){
+    let magicNum = prompt("Choose your number?");
+    if(magicNum % 2 == 0) {
+        alert("You picked an even number");
+    }else {
+        alert("You picked an odd number");
+    }
+
+    //add 100 to picked number
+    alert((parseInt(magicNum)) + 100);
+
+    //testing for negative or positive number
+    if(magicNum > 0){
+        alert("Positive Number");
+    } else {
+        alert("Negative Number");
+    }
+
+
+    //example test for negative or positive number
+    /*if(magicNum = +integer){
+        alert("Positive Number");
+    } else {
+        alert("Negative Number");
+    }*/
+}
+
+
+/*function exerciseLast() {
     let pickNum = prompt("Pick a number 1 - 10");
 
     if (pickNum % 2 == 0) {
         alert("You picked an even number");
     } else {
         alert("You picked an odd number");
-    }
+    };
 }
 
-// alert();
-// alert();
+    if
+}
+return exerciseLast();*/
+
