@@ -91,6 +91,6 @@ function bowlName(name, splitter) {
     return splits.split(" ");
 }
 
-console.log(bowlName("ThEbEsTbOwLiNgPlAcEever");
+// console.log(bowlName("ThEbEsTbOwLiNgPlAcEever");
 
 
