@@ -1,6 +1,6 @@
 //number
 console.log(99.9);
-//boolean
+//string
 console.log("false");
 //typeof
 console.log(typeof false);

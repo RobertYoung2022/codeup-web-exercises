@@ -194,6 +194,7 @@ alert("Total discount is $" + discount + " and your total = $" + (totalBill - di
  * HINT: The way we prompt for a value could be improved
  */
 
+
     let cFirm = confirm("Are you sure?");
 
     //Is the picked number even or odd
@@ -206,7 +207,7 @@ alert("Total discount is $" + discount + " and your total = $" + (totalBill - di
     }
 
     //add 100 to picked number
-    alert((parseInt(magicNum)) + 100);
+    alert("your number plus 100 is " + (parseInt(magicNum) + 100));
 
     //testing for negative or positive number
     if(magicNum > 0){
@@ -214,18 +215,24 @@ alert("Total discount is $" + discount + " and your total = $" + (totalBill - di
     } else {
         alert("Negative Number");
     }
+        //If NaN, don't display information
+       /* if (magicNum == NaN)  {
+            alert("Your was not a number. Please refresh and enter a number.")
+        }*/
 
 
-    //example test for negative or positive number
-    /*if(magicNum = +integer){
+
+
+            //example test for negative or positive number
+            /*if(magicNum = +integer){
         alert("Positive Number");
     } else {
         alert("Negative Number");
     }*/
 }
 
-
-/*function exerciseLast() {
+            //Attempt at function for last exercise
+            /*function exerciseLast() {
     let pickNum = prompt("Pick a number 1 - 10");
 
     if (pickNum % 2 == 0) {
@@ -239,3 +246,5 @@ alert("Total discount is $" + discount + " and your total = $" + (totalBill - di
 }
 return exerciseLast();*/
 
+// how to clone repository
+// code > copy SSH > file > new > project from Version Control > paste URl in URL block >

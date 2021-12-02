@@ -1,10 +1,10 @@
 //12
 console.log('1' + 2);
-//string
+//string2
 console.log(typeof '1' + 2);
 //2
 console.log(6 % 4);
-//7
+//3 + 4 is 7
 console.log('3 + 4 is '+ (3 + 4));
 //false
 console.log(0 < 0);
