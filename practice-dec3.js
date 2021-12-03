@@ -1,5 +1,5 @@
 "use strict";
-            //  0       1       2          3        4       5       = 6 total
+//  0       1       2          3        4       5       = 6 total
 // let students = ["Rob", "Mina", "Jason", "Justin", "Mark", "Justin"];
 // console.log(students.length);
 
@@ -34,8 +34,6 @@ console.log(indexOfJustin);
 let lastIndexOfJustin = students2.lastIndexOf("Justin")
 console.log(lastIndexOfJustin);
 
-
-//METHODS
 //ACCESSING ELEMENTS FROM AN ARRAY
 //nameOfArray[position withing the array] 💡 arrays always start at zero
 
@@ -59,14 +57,16 @@ console.log(bobby[4][1]);
 function desiredAge(num) {
     return num - 10;
 }
+
 console.log(desiredAge(age));
 
 //FUNCTIONS             Parameters
-function nameOfFunction(num1, num2){
+function nameOfFunction(num1, num2) {
     return num1 + num2;
 }
+
 //               this is an      arguments
-console.log((nameOfFunction( 4, 5)));
+console.log((nameOfFunction(4, 5)));
 
 // METHODS
 // methods are pre-existing functions
@@ -80,9 +80,10 @@ console.log("PRINT THIS OUT") //
 parseInt(); //
 
 
-function nameOfFunction3(num1){
+function nameOfFunction3(num1) {
     return num1;
 }
+
 console.log(nameOfFunction3(4, function () {
     console.log("hey there!")
 }));
@@ -90,7 +91,7 @@ console.log(nameOfFunction3(4, function () {
 let ages = [14, 23, 89, 5, 25, 36];
 let agesLength = ages.length;
 // console.log("Age Length is = " + agesLength);
-for(let startingPoint = 0; startingPoint <= ages.length - 1; startingPoint++) {
+for (let startingPoint = 0; startingPoint <= ages.length - 1; startingPoint++) {
 
     console.log(ages[startingPoint] * 2);
 }
