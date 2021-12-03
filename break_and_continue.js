@@ -46,25 +46,6 @@ do{
 // Use a loop and the continue statement to output all the odd numbers between 1 and 50,
 // except for the number the user entered.
 
-let askForOddNumber2 = prompt("Pick an odd number between 1 - 50");
-let answer2 = askForOddNumber2 % 2 == 0
-let middle = 1; middle <= 50; middle++
-for(let middle = 1; middle <= 50; middle++) {
-        if (answer2) {
-            continue;
-    }
-    console.log("All the odd numbers " + answer2 + " minus yours lol.")
-}
-
-/*for(middle of answer2){
-
-    if(answer2)
-    {
-        continue;
-    }
-    console.log("All the odd numbers " + answer2 + "minus yours lol.")
-}*/
-
 //      CORRECT ANSWER
 let userNumber2 = Number(prompt("Gimme an odd number between 1 - 50"));
 // console.log("Number to skip: " + userNumber2)
@@ -77,3 +58,22 @@ for(let i = 1; i <=50; i += 2) {
     console.log("Here is an odd number " + i);
 }
 
+//      MY FAILURES
+/*let askForOddNumber2 = prompt("Pick an odd number between 1 - 50");
+let answer2 = askForOddNumber2 % 2 == 0
+let middle = 1; middle <= 50; middle++
+for(let middle = 1; middle <= 50; middle++) {
+        if (answer2) {
+            continue;
+    }
+    console.log("All the odd numbers " + answer2 + " minus yours lol.")
+}*/
+
+/*for(middle of answer2){
+
+    if(answer2)
+    {
+        continue;
+    }
+    console.log("All the odd numbers " + answer2 + "minus yours lol.")
+}*/
