@@ -96,4 +96,5 @@ for(let startingPoint = 0; startingPoint <= ages.length - 1; startingPoint++) {
 }
 
 //RULE OF THUMB
-// ++ if you want to
+// ++ if you want to ex. i < 10
+// -- if you want to ex. i > 100
