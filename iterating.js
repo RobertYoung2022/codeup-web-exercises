@@ -6,34 +6,37 @@
      * Create an array of 4 people's names and store it in a variable called
      * 'names'.
      */
-    let names = ["Mike", "Godfrey", "Mina", "Yong"]
+    let names = ["Mike", "Godfrey", "Mina", "Yong"];
     /**
      * TODO:
      * Create a log statement that will log the number of elements in the names
      * array.
      */
-    // console.log(names);
+    console.log(names.length); // number of elements = .length
     /**
      * TODO:
      * Create log statements that will print each of the names individually by
      * accessing each element's index.
      */
-    // console.log(names.length);
+    console.log(names[0]);  // element's index = var[]
+    console.log(names[1]);
+    console.log(names[2]);
+    console.log(names[3]);
     /**
      * TODO:
      * Write some code that uses a for loop to log every item in the names
      * array.
      */
-    // for(let allNames = 0; allNames < names.length; allNames++) {
-    //     console.log("Your name is " + names[allNames]);
-    // }
+    for(let allNames = 0; allNames < names.length; allNames++) {
+        console.log("Your name is " + names[allNames]);
+    }
     /**
      * TODO:
      * Refactor your above code to use a `forEach` loop
      */
-    // names.forEach(function (allNames){
-    //     console.log('Your name is: ' + allNames + '.');
-    // });
+    names.forEach(function (allNames){
+        console.log('Your name is: ' + allNames + '.');
+    });
     /**
      * TODO:
      * Create the following three functions, each will accept an array and
@@ -48,7 +51,17 @@
      *  > last([1, 2, 3, 4, 5]) // return 5
      */
 
+
     let first = [1, 2, 3, 4, 5];
+    function num1(firstArr, numPick){
+        console.log(firstArr[numPick]);
+    }
+    num1(first, 0);
+    num1(first, 1);
+    num1(first, 4);
+
+
+/*    let first = [1, 2, 3, 4, 5];
    function num1(firstArr){
         console.log(firstArr[0]);
     }
@@ -64,6 +77,6 @@
     function num3(lastArr){
         console.log(lastArr[4]);
     }
-    num3(last);
+    num3(last);*/
 
 })();
