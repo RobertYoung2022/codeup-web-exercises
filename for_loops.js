@@ -11,11 +11,10 @@
         console.log("Multiplication table for your number is " + table * number);
     }
 }
-showMultiplicationTable(3);*/
+showMultiplicationTable(7);*/
 
 //  3.
-/*
-function getRandomIntInclusive(min, max) {
+/*function getRandomIntInclusive(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1) + min); //The maximum is inclusive and the minimum is inclusive
@@ -35,6 +34,18 @@ function showMult() {
 }
 showMult();*/
 
+//Another example for #3
+/*for (let i = 0; i < 10; i++) {
+    let rando = Math.floor(Math.random() * 180) + 20; // Checking for even or odd numbers
+
+    if(rando % 2 === 0) {
+        console.log(rando + ' is even');
+    } else {
+        console.log(rando + ' is odd');
+    }
+
+}*/
+
 //  4.
 /*for(let a = 1; a <= 9; a++) {
     let s = '';
@@ -44,14 +55,25 @@ showMult();*/
     console.log(s);
 }*/
 
+for(let i = 1; i <= 9; i++) {
+    let output = '';
+    for(let j = 1; j <= i; j++) {
+        output += i;
+    }
+    console.log(output);
+}
+
+//Using the repeat method to #4
+/*for(let i = 1; i <= 9; i++) {
+    console.log(i.toString().repeat(i));
+}*/
+
 // Create a for loop that uses console.log to create the output shown below
 
 //  5.
-/*
-for(let i = 100; i >= 1; i--) {
+for(let i = 100; i >= 1; i-= 5) {
     console.log(i);
 }
-*/
 
 
 
