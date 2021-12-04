@@ -11,6 +11,10 @@
      *  > console.log(person.firstName) // "Rick"
      *  > console.log(person.lastName) // "Sanchez"
      */
+let person = {};
+person.first = "Robert";
+person.last = "Young";
+    console.log(person);
 
     /**
      * TODO:
@@ -21,6 +25,10 @@
      * Example
      * > console.log(person.sayHello()) // "Hello from Rick Sanchez!"
      */
+    person.sayHello = function (){
+        return "Hello, " + this.first + " " + this.last;
+    }
+    console.log(person.sayHello());
 
     /** TODO:
      * HEB has an offer for the shoppers that buy products amounting to
@@ -36,12 +44,33 @@
      * and console.log the relevant messages for each person
      */
 
-    // var shoppers = [
-    //     {name: 'Cameron', amount: 180},
-    //     {name: 'Ryan', amount: 250},
-    //     {name: 'George', amount: 320}
-    // ];
+    var shoppers = [
+        {name: 'Cameron', amount: 180},
+        {name: 'Ryan', amount: 250},
+        {name: 'George', amount: 320}
+    ];
 
+    shoppers.forEach(function(shopper) {
+        if(shopper.amount <= 200){
+            alert("Hello, " + shopper.name + ". You spend $" + shopper.amount + "." + "Making you ineligible for a discount" +  "Your total is $" + shopper.amount);
+        } else { alert("Hello, " + shopper.name + ". You spend $" + shopper.amount + "." + "Making you eligible for a discount of 12%. Your discount is $" + (shopper.amount * .12) +  "Your new total is $" + (shopper.amount * .88).toFixed(2));
+
+
+        }
+    });
+
+    /*
+    if(shoppers[0].amount <= 200) {
+        console.log(shoppers[0].amount * .12);
+    } else {
+        console.log("You didn't spend enough for the discount")
+    }
+        //calculation for 12% discount
+        shoppers[0].amount * .12
+    }*/
+    //     alert("Hello, " + this.name + ". You spend $" + this.amount + "." + "Making you eligible for a discount of 12%" +  "Your total after discount is $" + discount);
+    //     alert("Hello, " + this.name + ". You spend $" + this.amount + "." + "Making you ineligible for a discount" +  "Your total is $" + discount);
+    // console.log(shoppers[0].amount * .12);
     /** TODO:
      * Create an array of objects that represent books and store it in a
      * variable named `books`. Each object should have a title and an author
