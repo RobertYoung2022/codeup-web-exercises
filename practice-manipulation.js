@@ -55,7 +55,7 @@ console.log("myDogs as string", myDogs.join(", "));
 //      SPLIT method
 
 let searchTerm = "curry, chicken, lots-garlic, one hour";
-let parsedSearchTerms = searchTerm.split(","); // empty string will separate every word into individual arguments
+let parsedSearchTerms = searchTerm.split("<br>"); // empty string will separate every word into individual arguments
 console.log("Parsed Search Terms", parsedSearchTerms);
 
 // Using SPLIT.REVERSE.JOIN to flip argument
