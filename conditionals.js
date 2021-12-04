@@ -198,28 +198,27 @@ alert("Total discount is $" + discount + " and your total = $" + (totalBill - di
     let cFirm = confirm("Are you sure?");
 
     //Is the picked number even or odd
-    if(cFirm){
-    let magicNum = prompt("Choose your number?");
-    if(magicNum % 2 == 0) {
-        alert("You picked an even number");
-    }else {
-        alert("You picked an odd number");
-    }
-
-    //add 100 to picked number
-    alert("your number plus 100 is " + (parseInt(magicNum) + 100));
-
-    //testing for negative or positive number
-    if(magicNum > 0){
-        alert("Positive Number");
-    } else {
-        alert("Negative Number");
-    }
-        //If NaN, don't display information
-       /* if (magicNum == NaN)  {
+    if(cFirm) {
+        let magicNum = prompt("Choose your number?");
+        //because magicNum will get printed as a string, I used parseInt() to magicNum to change back to number to check against NaN
+        if (parseInt(magicNum) !== NaN) {
             alert("Your was not a number. Please refresh and enter a number.")
-        }*/
+        } else if (magicNum % 2 == 0) {
+            alert("You picked an even number");
+        } else {
+            alert("You picked an odd number");
+        }
 
+        //add 100 to picked number
+        alert("your number plus 100 is " + (parseInt(magicNum) + 100));
+
+        //testing for negative or positive number
+        if (magicNum > 0) {
+            alert("Positive Number");
+        } else {
+            alert("Negative Number");
+        }
+    }
 
 
 
@@ -229,7 +228,7 @@ alert("Total discount is $" + discount + " and your total = $" + (totalBill - di
     } else {
         alert("Negative Number");
     }*/
-}
+
 
             //Attempt at function for last exercise
             /*function exerciseLast() {
