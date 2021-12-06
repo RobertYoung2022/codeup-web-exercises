@@ -82,6 +82,7 @@
      */
     let books = [
         {
+            bookNumber: 1,
             title: "Way of the Turtle",
             author: {
                 firstName: "Curtis",
@@ -89,6 +90,7 @@
             }
         },
         {
+            bookNumber: 2,
             title: "The Power of Habit",
             author: {
                 firstName: "Charles",
@@ -96,6 +98,7 @@
             }
         },
         {
+            bookNumber: 3,
             title: "The Art of War",
             author: {
                 firstName: "Sun",
@@ -103,6 +106,7 @@
             }
         },
         {
+            bookNumber: 4,
             title: "This is not a T-Shirt",
             author: {
                 firstName: "Bobby",
@@ -110,6 +114,7 @@
             }
         },
         {
+            bookNumber: 5,
             title: "The Alchemist",
             author: {
                 firstName: "Paulo",
@@ -143,7 +148,9 @@
      *      ---
      *      ...
      */
-    books.forEach(book())
+    books.forEach(function(book) {
+        console.log("Book # " + book.bookNumber + "\n" + "Title: " + book.title + "\n" + "Author: " + book.author.firstName + " " + book.author.lastName + "\n---");
+    });
     /**
      * Bonus:
      * - Create a function named `createBook` that accepts a title and author

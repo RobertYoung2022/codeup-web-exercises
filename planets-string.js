@@ -26,7 +26,13 @@
      * string, and <li> tags around each planet.
      */
 
-
     var parsedPlanets = planetsString.split("|").join("<br>");
         console.log(parsedPlanets);
+
+
+
+        let planetsList = planetsArray.join("<li></li>");
+
+    console.log("reference", <ul><li>Mercury</li><li>Venus</li><li>Earth</li><li>Mars</li><li>Jupiter</li><li>Saturn</li><li>Uranus</li><li>Neptune</li></ul>);
+    console.log(planetsList);
 })();
