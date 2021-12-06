@@ -49,9 +49,22 @@ let dog = {
         "white",
     ],
     sex: "M",
-    isFloofer: true
+    isFloofer: true,
+    bark: function (loud) {
+        if (loud){
+            console.log("Woof Woof");
+        } else {
+            console.log("ruf ruf");
+        }
+    },
+    dogDetails: function () {
+        return this.colors[0] + " " + this.breed + " " + this.name;
+    }
 };
 
+dog.dogDetails([0])
+
+dog.bark()
 
     // OBJECT LITERAL EX. let x = {}
 
@@ -72,4 +85,38 @@ console.log(array);
 
 
 
+function createDog(name, colors, breed) {
+    return {
+        name: name,
+        breed: breed,
+        colors: colors,
+        sex: "M",
+        isFloofer: true,
+        bark: function (loud) {
+            if (loud){
+                console.log("Woof Woof");
+            } else {
+                console.log("ruf ruf");
+            }
+        },
+        dogDetails: function () {
+            return this.colors[0] + " " + this.breed + " " + this.name;
+        }
+    }
+};
+
+
+console.log(createDog("Barry", "black", "Lab"))
+
+let collectionOfDogs = []
+
+collectionOfDogs.push(createDog('Him','black', 'mutt'));
+collectionOfDogs.push(createDog('Fido','mixed', 'Golden'));
+collectionOfDogs.push(createDog('Chef','brown', 'Shepperd'));
+
+collectionOfDogs.forEach(function (dog) {
+    console.log(dog.dogDetails())
+});
+
+console.log(collectionOfDogs[1]);
 
