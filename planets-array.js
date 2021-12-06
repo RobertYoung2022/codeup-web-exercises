@@ -39,7 +39,8 @@
     console.log("4. " + planets);
 
     console.log('Finding and logging the index of "Earth" in the planets array.');
-
+    let findPlanet = planets.indexOf("Earth");
+    console.log("The index of Earth is " + findPlanet);
 
     console.log("Reversing the order of the planets array.");
     planets.reverse();
