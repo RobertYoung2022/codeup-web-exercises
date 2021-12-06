@@ -11,10 +11,10 @@
      *  > console.log(person.firstName) // "Rick"
      *  > console.log(person.lastName) // "Sanchez"
      */
-let person = {};
-person.first = "Robert";
-person.last = "Young";
-    console.log(person);
+    let person = {};
+        person.first = "Robert";
+        person.last = "Young";
+        console.log(person);
 
     /**
      * TODO:
@@ -54,23 +54,20 @@ person.last = "Young";
         if(shopper.amount <= 200){
             alert("Hello, " + shopper.name + ". You spend $" + shopper.amount + "." + "Making you ineligible for a discount" +  "Your total is $" + shopper.amount);
         } else { alert("Hello, " + shopper.name + ". You spend $" + shopper.amount + "." + "Making you eligible for a discount of 12%. Your discount is $" + (shopper.amount * .12) +  "Your new total is $" + (shopper.amount * .88).toFixed(2));
-
-
         }
     });
-
-    /*
-    if(shoppers[0].amount <= 200) {
+    //
+    /*if(shoppers[0].amount <= 200) {
         console.log(shoppers[0].amount * .12);
     } else {
         console.log("You didn't spend enough for the discount")
     }
         //calculation for 12% discount
         shoppers[0].amount * .12
-    }*/
-    //     alert("Hello, " + this.name + ". You spend $" + this.amount + "." + "Making you eligible for a discount of 12%" +  "Your total after discount is $" + discount);
-    //     alert("Hello, " + this.name + ". You spend $" + this.amount + "." + "Making you ineligible for a discount" +  "Your total is $" + discount);
-    // console.log(shoppers[0].amount * .12);
+    }
+        alert("Hello, " + this.name + ". You spend $" + this.amount + "." + "Making you eligible for a discount of 12%" +  "Your total after discount is $" + discount);
+        alert("Hello, " + this.name + ". You spend $" + this.amount + "." + "Making you ineligible for a discount" +  "Your total is $" + discount);
+    console.log(shoppers[0].amount * .12);*/
     /** TODO:
      * Create an array of objects that represent books and store it in a
      * variable named `books`. Each object should have a title and an author
@@ -83,7 +80,43 @@ person.last = "Young";
      * > console.log(books[0].author.firstName) // "Douglas"
      * > console.log(books[0].author.lastName) // "Adams"
      */
-
+    let books = [
+        {
+            title: "Way of the Turtle",
+            author: {
+                firstName: "Curtis",
+                lastName: "Faith",
+            }
+        },
+        {
+            title: "The Power of Habit",
+            author: {
+                firstName: "Charles",
+                lastName: "Duhigg",
+            }
+        },
+        {
+            title: "The Art of War",
+            author: {
+                firstName: "Sun",
+                lastName: "Tzu",
+            }
+        },
+        {
+            title: "This is not a T-Shirt",
+            author: {
+                firstName: "Bobby",
+                lastName: "Hundreds",
+            }
+        },
+        {
+            title: "The Alchemist",
+            author: {
+                firstName: "Paulo",
+                lastName: "Coelho",
+            }
+        },
+    ]
     /**
      * TODO:
      * Loop through the books array and output the following information about
