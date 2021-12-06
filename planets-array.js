@@ -24,7 +24,8 @@
 
     console.log('Adding "Pluto" to the end of the planets array.');
     //PUSH METHOD
-    planets.push("2. " + "Pluto");
+    planets.push("Pluto");
+    console.log("2. "+ planets);
 
     // SPREAD METHOD
    /* planets = [... planets, "Pluto"];
@@ -40,7 +41,7 @@
 
     console.log('Finding and logging the index of "Earth" in the planets array.');
     let findPlanet = planets.indexOf("Earth");
-    console.log("The index of Earth is " + findPlanet);
+    console.log("5. The index of Earth is " + findPlanet);
 
     console.log("Reversing the order of the planets array.");
     planets.reverse();
