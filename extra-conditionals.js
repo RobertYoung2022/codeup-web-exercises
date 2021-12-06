@@ -77,3 +77,9 @@ console.log(getToDestination(5, true, false, false));
 //
 //
 //         - After all switch statement functions successfully return the user's input, concatenate them all into a nicely-formatted string and return all data to the user
+
+//   shoppers.forEach(function(shopper) {
+//     if(shopper.amount > 200) {
+//     console.log(`Hello ${shopper.name}! You spend $${shopper.amount} making you ineligible for a discount. Your total is $${shopper.amount}`);
+//     } else{
+//     console.log(`Hello ${shopper.name}! You spend $${shopper.amount} making you eligible for a discount of 12%.  Your discount is $${discount} Your total is $${discountedTotal}`)};

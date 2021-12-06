@@ -1,4 +1,4 @@
-(function() {
+(function () {
     "use strict";
 
     /**
@@ -12,9 +12,9 @@
      *  > console.log(person.lastName) // "Sanchez"
      */
     let person = {};
-        person.first = "Robert";
-        person.last = "Young";
-        console.log(person);
+    person.first = "Robert";
+    person.last = "Young";
+    // console.log(person);
 
     /**
      * TODO:
@@ -25,10 +25,10 @@
      * Example
      * > console.log(person.sayHello()) // "Hello from Rick Sanchez!"
      */
-    person.sayHello = function (){
+    person.sayHello = function () {
         return "Hello, " + this.first + " " + this.last;
     }
-    console.log(person.sayHello());
+    // console.log(person.sayHello());
 
     /** TODO:
      * HEB has an offer for the shoppers that buy products amounting to
@@ -52,8 +52,9 @@
     //  MY ANSWER #2
     /*shoppers.forEach(function(shopper) {
         if(shopper.amount <= 200){
-            alert("Hello, " + shopper.name + ". You spend $" + shopper.amount + "." + "Making you ineligible for a discount" +  "Your total is $" + shopper.amount);
-        } else { alert("Hello, " + shopper.name + ". You spend $" + shopper.amount + "." + "Making you eligible for a discount of 12%. Your discount is $" + (shopper.amount * .12) +  "Your new total is $" + (shopper.amount * .88).toFixed(2));
+            console.log("Hello, " + shopper.name + ". You spend $" + shopper.amount + ". " + "Making you ineligible for a discount" +  ". Your total is $" + (shopper.amount).toFixed(2));
+        } else {
+            console.log("Hello, " + shopper.name + ". You spend $" + shopper.amount + ". " + "Making you eligible for a discount of 12%. Your discount is $" + (shopper.amount * .12).toFixed(2) +  ". Your new total is $" + (shopper.amount * .88).toFixed(2));
         }
     });*/
     //  PREWORK FOR #2
@@ -123,7 +124,7 @@
         },
     ];
 
-    console.log("My favorite book is " + books[3].title + ". The authors' name is " + books[3].author.firstName + " " + books[3].author.lastName);
+    // console.log("My favorite book is " + books[3].title + ". The authors' name is " + books[3].author.firstName + " " + books[3].author.lastName);
     /**
      * TODO:
      * Loop through the books array and output the following information about
@@ -148,9 +149,15 @@
      *      ---
      *      ...
      */
-    books.forEach(function(book) {
+    /*books.forEach(function(book) {
         console.log("Book # " + book.bookNumber + "\n" + "Title: " + book.title + "\n" + "Author: " + book.author.firstName + " " + book.author.lastName + "\n---");
+    });*/
+
+    //String Literal
+    books.forEach(function (book, index) {
+        console.log(`Book # ${index + 1} \n Title: ${book.title} \n Author: ${book.author.firstName} ${book.author.lastName} \n ---- `);
     });
+
     /**
      * Bonus:
      * - Create a function named `createBook` that accepts a title and author
@@ -161,5 +168,20 @@
      *   outputs the information described above. Refactor your loop to use your
      *   `showBookInfo` function.
      */
+ /*       function createBook(bookTitle, authorFirstName, authorLastName) {
+            return {
+                title: bookTitle;
+                author: {
+                    firstName: authorFirstName,
+                    lastName: authorLastName,
+                },
+                showBookInfo: function (){
+                    console.log(`Book # ${index + 1} \n Title: ${this.title} \n Author: ${book.author.firstName} ${book.author.lastName} \n ---- `);
+                }
+            }
+    }
 
+    const newBook = [
+
+    ]*/
 })();
