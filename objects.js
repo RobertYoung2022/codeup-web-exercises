@@ -49,14 +49,14 @@
         {name: 'Ryan', amount: 250},
         {name: 'George', amount: 320}
     ];
-
-    shoppers.forEach(function(shopper) {
+    //  MY ANSWER #2
+    /*shoppers.forEach(function(shopper) {
         if(shopper.amount <= 200){
             alert("Hello, " + shopper.name + ". You spend $" + shopper.amount + "." + "Making you ineligible for a discount" +  "Your total is $" + shopper.amount);
         } else { alert("Hello, " + shopper.name + ". You spend $" + shopper.amount + "." + "Making you eligible for a discount of 12%. Your discount is $" + (shopper.amount * .12) +  "Your new total is $" + (shopper.amount * .88).toFixed(2));
         }
-    });
-    //
+    });*/
+    //  PREWORK FOR #2
     /*if(shoppers[0].amount <= 200) {
         console.log(shoppers[0].amount * .12);
     } else {
@@ -116,7 +116,9 @@
                 lastName: "Coelho",
             }
         },
-    ]
+    ];
+
+    console.log("My favorite book is " + books[3].title + ". The authors' name is " + books[3].author.firstName + " " + books[3].author.lastName);
     /**
      * TODO:
      * Loop through the books array and output the following information about
