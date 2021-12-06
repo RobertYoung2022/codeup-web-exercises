@@ -143,7 +143,7 @@
      *      ---
      *      ...
      */
-
+    books.forEach(book())
     /**
      * Bonus:
      * - Create a function named `createBook` that accepts a title and author
