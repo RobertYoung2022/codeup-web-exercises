@@ -30,9 +30,7 @@ function getToDestination (age, isInsured, hasCar, canGetRideshare) {
 console.log(getToDestination(18, true, true));
 console.log(getToDestination(4, false, false, true));
 console.log(getToDestination(5, true, false, false));
-
-
-
+git
 
 //     #### getToDestination, part 2
 //
