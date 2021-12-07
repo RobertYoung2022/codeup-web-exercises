@@ -59,12 +59,18 @@ console.log(canGetRideshare(true, true));
 // - Orchestrate the statements in a central function that is responsible for calling and checking for errors
 //     each switch statement should be wrapped in a function which accepts the user's input as a string parameter and return that same string if it is validated
 //     ie: `function getBodyStyle(input){return input}`
-//
-//
+switch (){
+    let carStyle = prompt("Car body style (i.e. 2D, 4D, etc)");
+    let vehicleType = prompt("Car body style (i.e. 2D, 4D, etc)");
+    let vehicleColor = prompt("Car body style (i.e. 2D, 4D, etc)");
+
+
+};
 //     - For user input, either use the browser's prompt/confirm/alert methods or mock up user input by hard-coding values
 //
-//
-//     - The user should be able to enter their
+
+
+//     The user should be able to enter their:
 //     - Body style (2D, 4D, etc)
 //     - Vehicle type (sports car, sedan, compact, truck, etc)
 //     - Vehicle color
