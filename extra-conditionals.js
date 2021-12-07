@@ -30,7 +30,6 @@ function getToDestination (age, isInsured, hasCar, canGetRideshare) {
 console.log(getToDestination(18, true, true));
 console.log(getToDestination(4, false, false, true));
 console.log(getToDestination(5, true, false, false));
-git
 
 //     #### getToDestination, part 2
 //
@@ -39,7 +38,14 @@ git
 // - Now, when you call getToDestination(), instead of passing in a canGetRideShare parameter
 // - Call canGetRideshare() in the else if *after* !isLegalDriver &&...
 // - Be sure to log to the user if they can or cannot get a rideshare
-//
+
+function canGetRideshare(drivers, hasMoney){
+    if(drivers === true && hasMoney === true);
+    return "Drivers are available for you to get a rideshare";
+}
+
+console.log(canGetRideshare(true, true));
+
 // BONUS -> This exercise will probably get the mind wondering "How can I make this more?.."
 // - Consider this: What if mileage determined:
 //     - If the rider has enough funds?
