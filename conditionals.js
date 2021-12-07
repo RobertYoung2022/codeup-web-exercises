@@ -246,4 +246,4 @@ alert("Total discount is $" + discount + " and your total = $" + (totalBill - di
 return exerciseLast();*/
 
 // how to clone repository
-// code > copy SSH > file > new > project from Version Control > paste URl in URL block >
+// code > copy SSH > file > new > project from Version Control > paste URl in URL block >rv
