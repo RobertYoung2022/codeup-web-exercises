@@ -8,24 +8,73 @@
     <title>Form Practice</title>
 </head>
 <body>
-    <form method="GET" action="https://request-inspector.glitch.me/">
+<!--    <form method="GET" action="https://request-inspector.glitch.me/">-->
 
+<!--        <label for="username">Username</label>-->
+<!--        <input id="username" name="username" type="text">-->
+<!--        <br>-->
+
+<!--        <label for="password">Password</label>-->
+<!--        <input id="password" name="password" type="password">-->
+<!--        <br>-->
+
+<!--        <input type="submit">-->
+<!--    </form>-->
+
+
+<!--    <form method="GET" action="https://google.com">-->
+<!--&lt;!&ndash;        If you create an inputs, it must have a name attribute&ndash;&gt;-->
+<!--        <input type="text" name="q">-->
+<!--        <input type="submit" value="Google Search">-->
+<!--    </form>-->
+
+<h1>Sign Up</h1>
+
+<!--all INPUT fields can be pre-populated-->
+    <form method="POST" action="https://request-inspector.glitch.me/">
         <label for="username">Username</label>
         <input id="username" name="username" type="text">
+        <br>
+
+        <label for="birthday">Birthday</label>
+        <input type="date" name="birthday" id="birthday">
+        <br>
+<!--        There is an attribute to lock the scaling of the TEXTAREA-->
+<!--        MAX LENGTH will make a limit for how many characters can be submitted-->
+        <label for="profile">Profile</label>
+        <textarea name="profile" id="profile" placeholder="Your profile here" cols="30" rows="5"></textarea>
+        <br>
+
+        <label for="emailSubscription" name="emailSubscription" id="emailSubscription">Would you like to sign up for email list</label>
+        <input type="checkbox" name="emailSubscription" email="emailSubscription">
+        <br>
+<!--Have to group radio attribute -->
+        <label for="">Gender</label>
+        <br>
+        <input type="radio" name="gender" value="male"> Male
+        <br>
+        <input type="radio" name="gender" value="female"> Female
+        <br>
+        <input type="radio" name="gender" value="other"> Other
+        <br>
+
+        <label for="hobbies">Hobbies</label>
+        <select name="hobbies" id="hobbies">
+            <option value="coinCollector">Coin Collector</option>
+            <option value="sneakerCollector">Sneaker Collector</option>
+            <option value="funkoPopCollector">Funko POP Collector</option>
+        </select>
         <br>
 
         <label for="password">Password</label>
         <input id="password" name="password" type="password">
         <br>
+<!--        PASSWORD attribute blocks your keylogging-->
+        <label for="ValidatePassword">Confirm Password</label>
+        <input id="ValidatePassword" name="password" type="password">
+        <br>
 
         <input type="submit">
-    </form>
-
-
-    <form method="GET" action="https://google.com">
-<!--        If you are creating inputs, it must have a name-->
-        <input type="text" name="q">
-        <input type="submit" value="Google Search">
 
     </form>
 </body>
