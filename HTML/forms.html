@@ -8,37 +8,40 @@
     <title>Register With Us</title>
 </head>
 <body>
-<form method="POST" action="https://request-inspector.glitch.me/">
-    <label for="email" name="email">Email</label>
-    <input type="email" name="email" id="email" placeholder="Email">
-    <br>
-
-    <textarea name="bio" id="bio" cols="30" rows="5" placeholder="Tell us about yourself"></textarea>
-    <br>
-
-    <label for="HearAboutUs" name="HearAboutUs" id="HearAboutUs">How did you hear about us?</label>
-    <br>
-    <input type="radio" id="HearAboutUs" name="HearAboutUs" value="billboard"> billboard
-    <br>
-    <input type="radio" id="HearAboutUs" name="HearAboutUs" value="radio advertisement"> radio advertisement
-    <br>
-    <input type="radio" id="HearAboutUs" name="HearAboutUs" value="internet advertisement"> internet advertisement
-    <br>
-    <input type="radio" id="HearAboutUs" name="HearAboutUs" value="other"> other
-    <br>
-
-    <label for="webBrowser">What web browser are you using?</label>
-    <select name="webBrowser" id="webBrowser">
-    <option value="Safari">Safari</option>
-    <option value="Chrome">Chrome</option>
-    <option value="Firefox">Firefox</option>
-    <option value="Edge">Edge</option>
-    </select>
-    <br>
-
-    <button>Submit</button>
-
-
-</form>
+    <form method="POST" action="https://request-inspector.glitch.me/">
+    <!--    EMAIL-->
+        <label for="email" name="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Email">
+            <br>
+    <!--    PASSWORD-->
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Password">
+            <br>
+    <!--    TEXTAREA for bio-->
+        <textarea name="bio" id="bio" cols="30" rows="5" placeholder="Tell us about yourself"></textarea>
+        <br>
+    <!--    RADIO button for How did you hear about us-->
+        <label for="HearAboutUs" name="HearAboutUs" id="HearAboutUs">How did you hear about us?</label>
+            <br>
+        <input type="radio" id="HearAboutUs" name="HearAboutUs" value="billboard"> billboard
+            <br>
+        <input type="radio" id="HearAboutUs" name="HearAboutUs" value="radio advertisement"> radio advertisement
+            <br>
+        <input type="radio" id="HearAboutUs" name="HearAboutUs" value="internet advertisement"> internet advertisement
+            <br>
+        <input type="radio" id="HearAboutUs" name="HearAboutUs" value="other"> other
+            <br>
+    <!--    OPTION attribute for what web browser is used-->
+        <label for="webBrowser">What web browser are you using?</label>
+            <select name="webBrowser" id="webBrowser">
+                <option value="Safari">Safari</option>
+                <option value="Chrome">Chrome</option>
+                <option value="Firefox">Firefox</option>
+                <option value="Edge">Edge</option>
+            </select>
+            <br>
+    <!--    BUTTON for Submit-->
+        <button>Submit</button>
+    </form>
 </body>
 </html>

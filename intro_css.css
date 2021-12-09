@@ -1,0 +1,12 @@
+h1{
+    border: blue 2px solid;
+}
+
+
+/* 1. Identify the element you want to style */
+/*tag name - will get applied to ALL */
+p{
+    color: green;
+}
+/* . (class) - applies to ALL elements with the class attribute */
+/* # (id) - applies to a specific element only ONE element  */
