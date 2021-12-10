@@ -1,4 +1,42 @@
-h1{
-    color: dodgerblue ;
+/*Open up your welcome.html file from earlier.👍🏾*/
+/*Center the main heading👍🏾*/
+/*Add a style to change the color of the headers on your page and make them underlined.👍🏾*/
+/*Add a style to change the background color of the page.👍🏾*/
+/*Add a style to add a background image to your background. Search how to manipulate the position, sizing of this background image.👍🏾*/
+/*Add a style to change the list-style to something other than the default bullet.👍🏾*/
+/*Add a style to change the font for the entire page. Use google fonts if you would like.👍🏾*/
+/*Add a style to change the table, table cells td and rows tr padding and font sizes.👍🏾*/
+/*Add a style to alter the anchor tags and its different states. (e.g. link, visited, hover and active).*/
+
+
+body{
+    background-image: url("../HTML/img/ash-ketchum.jpeg");
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Anton', cursive;
+    /*background-size: cover;*/
 }
+h1{
+    color: #db2d2d;
+    text-align: center;
+}
+
+h2{
+    color: #db2d2d;
+    text-decoration: underline;
+}
+
+ul li{
+    /*list-style: url("../HTML/img/left-out.png");*/
+    list-style-image: linear-gradient(to left bottom, red, blue);
+}
+
+tbody tr:nth-child(even) {
+    background-color: #d9484c;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ff3333;
+}
+
 
