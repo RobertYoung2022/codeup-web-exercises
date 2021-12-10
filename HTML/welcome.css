@@ -38,5 +38,19 @@ tbody tr:nth-child(even) {
 tbody tr:nth-child(odd) {
     background-color: #ff3333;
 }
+a{
+    background-color: #ba9d37;
+    transition: background-color .5s;
+}
 
+a:hover{
+    background: #378cba;
+}
 
+a:visited{
+    color: #db2d2d;
+}
+
+/*a:link{*/
+/*    background-color: #d0c792;*/
+/*}*/
