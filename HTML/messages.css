@@ -6,3 +6,6 @@ body, html {
     font-family: Arial, Ubuntu, sans-serif;
 }
 
+.message{
+    border: black 1px solid;
+}
