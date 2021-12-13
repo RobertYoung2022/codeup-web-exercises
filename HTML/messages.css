@@ -6,8 +6,6 @@ body, html {
     font-family: Arial, Ubuntu, sans-serif;
 }
 
-
-
 .message{
     border: black 1px solid;
     border-radius: 5px;
@@ -34,13 +32,13 @@ body, html {
     display: block;
     margin-left: 150px;
     margin-right: 150px;
-    background: #ba9d37;
-    color: yellow;
+    background: #d0b13e;
+    color: #655c0b;
 }
 .message-error{
     display: block;
     margin-left: 150px;
     margin-right: 150px;
-    background: red;
-    color: #d9484c;
+    background: #e75f5f;
+    color: #8f1316;
 }

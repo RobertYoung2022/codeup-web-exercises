@@ -1,0 +1,58 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.storage1{
+    margin: 10px;
+    border: 3px solid black;
+    height: 500px;
+    width: 500px;
+}
+#line1{
+
+}
+
+/*.blocky{*/
+/*    height: 400px;*/
+/*    width: 400px;*/
+/*    border: 2px black solid;*/
+/*    margin: 15px;*/
+/*}*/
+/*#container1{*/
+/*    background-color: gray;*/
+/*    float: left;*/
+/*}*/
+/*#container2{*/
+/*    background-color: coral;*/
+/*    float: left;*/
+/*}*/
+/*.blocky-box{*/
+/*    height: 100px;*/
+/*    width: 100px;*/
+/*    margin: 10px;*/
+/*}*/
+
+/*#blocky1{*/
+/*    border: 5px darkblue solid;*/
+/*    background-color: blueviolet;*/
+/*}*/
+
+/*#blocky2{*/
+/*    border: 5px hotpink solid;*/
+/*    background-color: #ba9d37;*/
+/*}*/
+/*#blocky3{*/
+/*    border: 5px forestgreen solid;*/
+/*    background-color: #378cba;*/
+/*}*/
+/*#blocky4{*/
+/*    border: 5px crimson solid;*/
+/*    background-color: aqua;*/
+/*}*/
+
+/*p{*/
+/*    text-align: left;*/
+/*    margin: 15px;*/
+/*}*/
+
