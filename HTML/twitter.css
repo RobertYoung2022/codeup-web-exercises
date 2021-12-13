@@ -54,7 +54,7 @@ a {
 }
 .profile-image {
     position: absolute;
-    /*z-index: 1000;*/
+    z-index: 10000;
     top: 185px;
 }
 .profile-form{
@@ -81,6 +81,19 @@ a {
 }
 .text-muted {
     color: var(--main-link-color);
+}
+
+.profile-details{
+   width: 25%;
+    margin: 0.5em 0.5em;
+}
+.timeline{
+   width: 50%;
+    margin: 0.5em 0.5em;
+}
+.who-to-follow{
+   width: 25%;
+    margin: 0.5em 0.5em;
 }
 
 /*.top-nav{*/
