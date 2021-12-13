@@ -50,11 +50,11 @@ a {
 }
 .profile {
     background: var(--light-bg);
+    z-index: 1000;
     height: 80px;
 }
 .profile-image {
     position: absolute;
-    z-index: 10000;
     top: 185px;
 }
 .profile-form{
@@ -84,16 +84,19 @@ a {
 }
 
 .profile-details{
-   width: 25%;
-    margin: 0.5em 0.5em;
+    float: left;
+    width: calc(25% - 1em);
+    margin: 0 0.5em;
 }
 .timeline{
-   width: 50%;
-    margin: 0.5em 0.5em;
+    float: left;
+    width: calc(50% - 1em);
+    margin: 0 0.5em;
 }
 .who-to-follow{
-   width: 25%;
-    margin: 0.5em 0.5em;
+    float: right;
+    width: calc(25% - 1em);
+    margin: 0 0.5em;
 }
 
 /*.top-nav{*/
