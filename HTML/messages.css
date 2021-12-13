@@ -6,6 +6,41 @@ body, html {
     font-family: Arial, Ubuntu, sans-serif;
 }
 
+
+
 .message{
     border: black 1px solid;
+    border-radius: 5px;
+    margin: 5px;
+    height: 25px;
+    text-align: inherit;
+}
+
+.message-info{
+    display: block;
+    margin-left: 150px;
+    margin-right: 150px;
+    background: #378cba;
+    color: blue;
+}
+.message-success{
+    display: block;
+    margin-left: 150px;
+    margin-right: 150px;
+    background: #0FB784;
+    color: green;
+}
+.message-warning{
+    display: block;
+    margin-left: 150px;
+    margin-right: 150px;
+    background: #ba9d37;
+    color: yellow;
+}
+.message-error{
+    display: block;
+    margin-left: 150px;
+    margin-right: 150px;
+    background: red;
+    color: #d9484c;
 }
