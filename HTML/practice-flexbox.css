@@ -1,0 +1,49 @@
+/*.container{*/
+/*    height: 50vh;*/
+/*}*/
+
+/*.flex-container{*/
+/*    width: 100%;*/
+/*    border: 3px solid goldenrod;*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    align-items: flex-end;*/
+/*}*/
+
+/*.flex-container > * {*/
+/*    background: #378cba;*/
+/*    border: 2px solid darkcyan;*/
+/*    padding: 1em;*/
+
+/*}*/
+/*#item1{*/
+
+/*}*/
+body{
+    margin: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #d0b13e;
+}
+.nav_section{
+    display: flex;
+    width: 100%;
+}
+#special{
+    flex-grow: 1;
+}
+.nav_section > * {
+    padding: 2px 4px;
+}
+.nav_item{
+    transition: 250ms;
+}
+.nav_item:hover{
+    background: cornflowerblue;
+    cursor: pointer;
+    transition: 250ms;
+}
+
+/* Flex-grow will allow items to be spaced evenly in a block */
