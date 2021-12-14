@@ -37,6 +37,10 @@ nav{
 .nav_section > * {
     padding: 2px 4px;
 }
+
+.nav_item > a{
+    text-decoration: none;
+}
 .nav_item{
     transition: 250ms;
 }
@@ -46,4 +50,16 @@ nav{
     transition: 250ms;
 }
 
+.card{
+    border: solid orange 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card > img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
 /* Flex-grow will allow items to be spaced evenly in a block */
