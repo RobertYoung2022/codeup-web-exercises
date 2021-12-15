@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+
+footer{
+    display: flex;
+}
+
+#contact-us{
+    display: flex;
+    flex-direction: row;
+    background: whitesmoke;
+    color: black;
+    list-style-type: none;
+    text-align: center;
+    gap: 10px;
+}
+
+#contact-us li a{
+    text-decoration: none;
+}
+
+/*Create a responsive footer with contact us */
