@@ -1,11 +1,14 @@
 *{
     box-sizing: border-box;
+    margin: 0;
 }
 
 .nav_container{
     margin: auto;
     display: flex;
     flex-direction: row;
+    background: lightgrey;
+    padding: 1em;
 }
 
 img{
@@ -20,23 +23,30 @@ a{
     color: black;
 }
 a:hover{
-
     color: blue;
 }
 
 .nav_section1{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    padding: 1em;
+    justify-content: space-between;
+    flex-grow: 1;
 }
 
 .nav_section2{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 8;
 }
 
 .nav_section3{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+#search_icon, cart_icon, profile_icon {
+    align-self: flex-end;
 }
