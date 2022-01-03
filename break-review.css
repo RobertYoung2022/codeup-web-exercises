@@ -1,0 +1,31 @@
+h2{
+    background-color: aqua;
+    color: orange;
+    display: flex;
+    justify-content: center;
+}
+
+main > p {
+    border: solid 1px black;
+}
+
+main > section > p {
+    border-left: solid 3px blue;
+    border-right: solid 3px blue;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    * {
+        background-color: burlywood;
+    }
+}
