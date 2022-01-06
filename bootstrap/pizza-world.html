@@ -47,28 +47,176 @@
         </div>
 
 <!--            LIST GROUP WITH TAB NAV BADGES    ul class = navbar-nav  *need or not*  -->
+<h2>Build your own pizza!</h2>
 <ul class="list-group nav nav-tabs">
     <div class="row">
     <li class="list-group-item nav-item d-flex justify-content-between align-items-center">
-        <a class="nav-link active" id="size-crust-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+        <a class="nav-link active" id="size-crust-tab" data-toggle="tab" href="#size-crust" role="tab" aria-controls="home" aria-selected="true">
             <span class="badge badge-primary badge-pill">14</span>
             Size and Crust
         </a>
     </li>
     <li class="list-group-item d-flex nav-item justify-content-between align-items-center">
-        <a class="nav-link active" id="cheese-sauce-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+        <a class="nav-link active" id="cheese-sauce-tab" data-toggle="tab" href="#cheese-sauce" role="tab" aria-controls="home" aria-selected="true">
             <span class="badge badge-primary badge-pill">2</span>
             Cheese and Sauce
         </a>
     </li>
     <li class="list-group-item d-flex nav-item justify-content-between align-items-center" role="presentation">
-        <a class="nav-link active" id="topping-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+        <a class="nav-link active" id="topping-tab" data-toggle="tab" href="#toppings" role="tab" aria-controls="home" aria-selected="true">
             <span class="badge badge-primary badge-pill">1</span>
             Toppings
         </a>
     </li>
     </div>
 </ul>
+
+<!--        CARD TO CRUST AND SIZE         -->
+<div class="card text-center">
+    <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+        </ul>
+    </div>
+    <h5 class="card-title bg-primary text-left text-white p-2">Choose size and crust</h5>
+    <div class="card-body">
+        <p class="card-text">
+        <div class="card bg-light">
+            <div class="card-header display-5 text-left">Hand Tossed</div>
+            <div class="card-body">
+                <h6 class="card-title text-left">Garlic seasoned crust with a rich, buttery taste.</h6>
+                <div class="list-group">
+                    <div class="form-check">
+                        <a href="#" class="list-group-item list-group-item-action text-left">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="sm-hand" value="option1" checked>
+                            <label class="form-check-label" for="sm-hand">
+                                Small(10")
+                            </label>
+                        </a>
+                    </div>
+                    <div class="form-check">
+                        <a href="#" class="list-group-item list-group-item-action text-left">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="med-hand" value="option1" checked>
+                            <label class="form-check-label" for="med-hand">
+                                Medium(12")
+                            </label>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!--                    EXAMPLE FOR RADIO BUTTON    -->
+<!--        <div class="form-check">-->
+<!--            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>-->
+<!--            <label class="form-check-label" for="exampleRadios1">-->
+<!--                <a href="#" class="list-group-item list-group-item-action text-left">Medium(12")</a>-->
+<!--            </label>-->
+<!--        </div>-->
+
+
+        <div class="card-body">
+            <p class="card-text">
+            <div class="card bg-light">
+                <div class="card-header display-5 text-left">Crispy Thin</div>
+                <div class="card-body">
+                    <h6 class="card-title text-left">Thin enough for optimum cripsy to crunchy ratio.</h6>
+                    <div class="list-group">
+                        <div class="form-check">
+                            <a href="#" class="list-group-item list-group-item-action text-left">
+                            <input class="form-check-input" type="radio" name="exampleRadios" id="med-thin" value="option1" checked>
+                            <label class="form-check-label" for="med-thin">
+                                Medium(12")
+                            </label>
+                            </a>
+                        </div>
+                        <div class="form-check">
+                            <a href="#" class="list-group-item list-group-item-action text-left">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="lg-thin" value="option1" checked>
+                                <label class="form-check-label" for="lg-thin">
+                                    Large(14")
+                                </label>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+<!--                TEST CARD-->
+<!--        <div class="card-body">-->
+<!--            <p class="card-text">-->
+<!--            <div class="card bg-light">-->
+<!--                <div class="card-header">Choose size and crust</div>-->
+<!--                <div class="card-body">-->
+<!--                    <h5 class="card-title">Light card title</h5>-->
+<!--                    <div class="list-group">-->
+<!--                        <a href="#" class="list-group-item list-group-item-action">-->
+<!--                            <div class="form-check">-->
+<!--                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option1" checked>-->
+<!--                                <label class="form-check-label" for="exampleRadios2">-->
+<!--                                    Medium(12")-->
+<!--                                </label>-->
+<!--                            </div>-->
+<!--                        </a>-->
+<!--                        <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>-->
+<!--                    </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+
+
+<!--            <div class="card-body">-->
+<!--                <p class="card-text">-->
+<!--                <div class="card bg-light">-->
+<!--                    <div class="card-header">Choose size and crust</div>-->
+<!--                    <div class="card-body">-->
+<!--                        <h5 class="card-title">Light card title</h5>-->
+<!--                        <div class="list-group">-->
+<!--                            <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>-->
+<!--                            <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>-->
+<!--                            <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>-->
+<!--                            <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>-->
+<!--                            <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Vestibulum at eros</a>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+            <!--<div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action">Cras justo odio</a>
+                <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Vestibulum at eros</a>
+            </div>
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action active">Cras justo odio</a>
+                <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Vestibulum at eros</a>
+            </div>
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action active">Cras justo odio</a>
+                <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+                <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+                <a href="#" class="list-group-item list-group-item-action disabled" tabindex="-1" aria-disabled="true">Vestibulum at eros</a>
+            </div>-->
+        </p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+</div>
 
 <!--        EXAMPLE TAB NAV         -->
 <!--<ul class="nav nav-tabs navbar-nav" id="myTab" role="tablist">-->

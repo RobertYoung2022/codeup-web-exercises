@@ -7,3 +7,11 @@
 .bg-white {
     opacity: 50%;
 }
+
+.top-caption {
+    text-decoration: none;
+}
+
+h6 {
+    font-weight: normal;
+}
