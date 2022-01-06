@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="pizza-world.css">
 </head>
 <body>
-<!--            NAVBAR -->
+<!--            NAVBAR  -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Pizza World</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,15 +17,15 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <!--            ORDER ONLINE BUTTON-->
+            <!--            ORDER ONLINE BUTTON     -->
             <li class="nav-item active">
                 <a class="nav-link" href="#">Order Online<span class="sr-only">(current)</span></a>
             </li>
-<!--                        MENU BUTTON-->
+<!--                        MENU BUTTON     -->
             <li class="nav-item">
                 <a class="nav-link" href="#">Menu</a>
             </li>
-<!--                            NESTED FORM FOR ZIPCODE AND SEARCH BUTTON-->
+<!--                       NESTED FORM FOR ZIPCODE AND SEARCH BUTTON        -->
             <li>
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Zipcode" aria-label="Search">
@@ -41,28 +41,54 @@
 
 <!--                    BANNER      -->
         <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-                <h1 class="display-4 text-transparent-50 bg-white">Welcome to Pizza World!</h1>
+            <div class="container col-12">
+                <h1 class="display-4 text-transparent-50 text-center bg-white">Welcome to Pizza World!</h1>
             </div>
         </div>
 
-<!--            LIST GROUP WITH TAB NAV BADGES-->
-<ul class="list-group">
+<!--            LIST GROUP WITH TAB NAV BADGES    ul class = navbar-nav  *need or not*  -->
+<ul class="list-group nav nav-tabs">
     <div class="row">
-    <li class="list-group-item d-flex justify-content-between align-items-center">
-        A list item
-        <span class="badge badge-primary badge-pill">14</span>
+    <li class="list-group-item nav-item d-flex justify-content-between align-items-center">
+        <a class="nav-link active" id="size-crust-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+            <span class="badge badge-primary badge-pill">14</span>
+            Size and Crust
+        </a>
     </li>
-    <li class="list-group-item d-flex justify-content-between align-items-center">
-        A second list item
-        <span class="badge badge-primary badge-pill">2</span>
+    <li class="list-group-item d-flex nav-item justify-content-between align-items-center">
+        <a class="nav-link active" id="cheese-sauce-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+            <span class="badge badge-primary badge-pill">2</span>
+            Cheese and Sauce
+        </a>
     </li>
-    <li class="list-group-item d-flex justify-content-between align-items-center">
-        A third list item
-        <span class="badge badge-primary badge-pill">1</span>
+    <li class="list-group-item d-flex nav-item justify-content-between align-items-center" role="presentation">
+        <a class="nav-link active" id="topping-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+            <span class="badge badge-primary badge-pill">1</span>
+            Toppings
+        </a>
     </li>
     </div>
 </ul>
+
+<!--        EXAMPLE TAB NAV         -->
+<!--<ul class="nav nav-tabs navbar-nav" id="myTab" role="tablist">-->
+<!--    <li class="nav-item" role="presentation">-->
+<!--        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a>-->
+<!--        <span class="badge badge-primary badge-pill">2</span>-->
+<!--    </li>-->
+<!--    <li class="nav-item" role="presentation">-->
+<!--        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>-->
+<!--        <span class="badge badge-primary badge-pill">14</span>-->
+<!--    </li>-->
+<!--    <li class="nav-item" role="presentation">-->
+<!--        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"> Contact<span class="badge badge-primary badge-pill">1</span></a>-->
+<!--    </li>-->
+<!--</ul>-->
+<!--<div class="tab-content" id="myTabContent">-->
+<!--    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque commodi consequatur cum dolore error eum exercitationem explicabo facilis id iure, iusto laudantium nam nobis omnis, possimus reprehenderit sapiente. Numquam.</div>-->
+<!--    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, beatae cum ducimus, ea earum impedit itaque modi nulla omnis repudiandae temporibus voluptas. Aspernatur dignissimos libero modi nemo nobis quisquam rem!</div>-->
+<!--    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda delectus deleniti eos ex illum incidunt inventore labore nam nihil nostrum? Consequatur dolor est explicabo fugiat molestiae nemo nostrum quos unde?</div>-->
+<!--</div>-->
 
 
 

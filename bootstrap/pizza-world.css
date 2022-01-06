@@ -1,10 +1,7 @@
-.container {
 
-}
 .jumbotron {
     background-image: url("./pizza.png");
     background-size: cover;
-
 }
 
 .bg-white {
