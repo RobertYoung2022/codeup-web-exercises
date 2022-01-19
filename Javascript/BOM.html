@@ -37,9 +37,13 @@
             clearInterval(countdown);
             document.getElementById('message').innerHTML = "We are saved!";
             document.getElementById('defuser').innerHTML = "Refresh to play again!";
-            document.getElementById('defuser').addEventListener('click');
+            document.getElementById('defuser').addEventListener('click', restart);
         }
 
+
+        let restart = function (event) {
+            location.reload()
+        }
         // Don't modify anything below this line!
         //
         // This causes the defuseTheBOM() function to be called
