@@ -1,10 +1,14 @@
 "use strict";
 
-let readyStart = $(document).ready(function() {
+$(".blue-bg").css("background-color", "blue");
 
-window.onload = function() {
-    alert('The page has finished loading!');
-}
-});
-
-console.log(readyStart)
+$('#p-one').css({"color": "red", "font-size": "12px"});
+//
+// let readyStart = $(document).ready(function() {
+//
+// window.onload = function() {
+//     alert('The page has finished loading!');
+// }
+// });
+//
+// console.log(readyStart)
