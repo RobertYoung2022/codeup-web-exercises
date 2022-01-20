@@ -1,14 +1,30 @@
 "use strict";
-
-$(".blue-bg").css("background-color", "blue");
-
-$('#p-one').css({"color": "red", "font-size": "12px"});
-//
-// let readyStart = $(document).ready(function() {
-//
-// window.onload = function() {
-//     alert('The page has finished loading!');
-// }
+//ID SELECTORS
+// $(document).ready(function(){
+//     alert('The DOM has finishing loading!');
 // });
+// //#3
+// $("#heading").click(function() {
+//     alert($('#heading').text())
+// });
+// //#4
+// let content = $('#phone-2');
+// alert($(content).text());
+
+//CLASS SELECTORS
+// $('.phone-head').removeClass();
 //
-// console.log(readyStart)
+// $('.codeup').css('border' , '1px solid red');
+
+//
+// $('li').css({'font-size' : '20px'});
+//
+// $('p').css({'background' : 'yellow'});
+// $('h1').css({'background' : 'yellow'});
+// $('li').css({'background' : 'yellow'});
+
+
+alert($('.about-details').text());
+
+
+$('h1 , p , li').css({'background' : 'lightgrey'});
