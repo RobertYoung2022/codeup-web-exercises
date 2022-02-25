@@ -23,7 +23,11 @@
                 console.log(data);
                 console.log(status);
                 $.each(data, function (i) {
-                    $('#posts').append("<h2 class='text-primary'>"+ data[i].title + "</h2><p class='text-info'>" + data[i].content + "</p><li class='m-2'>" + data[i].categories + "</li>")
+                    $('#posts').append("<h2 class='text-primary'>" + data[i].title + "</h2>" +
+                        "<p class='text-info'>" +
+                        data[i].content + "</p>" +
+                        "<li class='m-2'>" + data[i].categories + "</li>" +
+                        "<li class='m-2'>" + data[i].date + "</li>")
                 })
             })
         })();
