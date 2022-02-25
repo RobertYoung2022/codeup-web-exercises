@@ -26,6 +26,6 @@ $(function () {
         })
     }
 
-    wait(3000).then((num) => $(".container").append((`<p>You'll have to push faster! ${num/2000} seconds</p>`)))
+    wait(3000).then((num) => $(".container").append((`<p>You have to push faster! ${num/2000} seconds</p>`)))
 
 })();
